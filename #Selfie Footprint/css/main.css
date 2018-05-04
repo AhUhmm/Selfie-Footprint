@@ -1,0 +1,92 @@
+body {
+  background-color: #042D38;
+  font-family: 'Lora', serif;
+}
+
+#main {
+  position: relative;
+  left: 120px;
+}
+#intro {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  color: #ECECEC;
+}
+
+#intro h1 {
+  color: #F15E34;
+  font-size: 44px;
+}
+
+#intro h2 {
+  font-size: 15px;
+  color: #C9C9C9;
+}
+
+#intro h3 {
+  color: #F15E34;
+  font-size: 20px;
+}
+
+#intro p {
+  line-height: 24px;
+  padding-right: 280px;
+  font-size: 16.5px;
+  font-family: "Arimo";
+}
+
+#sources p {
+  padding-top: 10px;
+  padding-right: 300px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  font-size: 10px;
+  color: #969696;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #FFFFFF;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  fill:#FFFFFF;
+}
+
+.y .domain {
+  visibility: hidden;
+}
+
+.y .tick line {
+  stroke: gray;
+  opacity: .4;
+}
+/*.dot {
+  stroke: #000;
+}*/
+
+.legend text{
+  fill: #FFFFFF;
+}
+
+.label {
+  font-size: 16px;
+}
+
+.legend {
+  font-size: 12px;
+}
+
+.tip {
+  font-size: 12px;
+  position: absolute;
+  background-color: #FFFFFF;
+  padding-left: 5px;
+  padding-right: 8px;
+  border-radius: 4px;
+  line-height: 6px;
+}
